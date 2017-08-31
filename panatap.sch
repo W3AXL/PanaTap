@@ -7767,15 +7767,15 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <instance part="C3" gate="G$1" x="50.8" y="53.34" rot="R90"/>
 <instance part="C5" gate="G$1" x="76.2" y="45.72" rot="R90"/>
 <instance part="GND1" gate="1" x="30.48" y="35.56" smashed="yes"/>
-<instance part="PAD1" gate="G$1" x="45.72" y="93.98" rot="R270"/>
-<instance part="R3" gate="G$1" x="45.72" y="71.12" rot="R90"/>
-<instance part="C2" gate="G$1" x="35.56" y="78.74"/>
-<instance part="GND2" gate="1" x="35.56" y="68.58" smashed="yes"/>
+<instance part="PAD1" gate="G$1" x="45.72" y="99.06" rot="R270"/>
+<instance part="R3" gate="G$1" x="45.72" y="81.28" rot="R90"/>
+<instance part="C2" gate="G$1" x="38.1" y="73.66" rot="R270"/>
+<instance part="GND2" gate="1" x="30.48" y="63.5" smashed="yes"/>
 <instance part="C4" gate="G$1" x="73.66" y="63.5"/>
 <instance part="R4" gate="G$1" x="58.42" y="60.96" rot="R270"/>
 <instance part="GND3" gate="1" x="73.66" y="53.34" smashed="yes"/>
 <instance part="GND4" gate="1" x="45.72" y="35.56" smashed="yes"/>
-<instance part="R6" gate="G$1" x="66.04" y="76.2" rot="R270"/>
+<instance part="R6" gate="G$1" x="66.04" y="81.28" rot="R270"/>
 <instance part="R5" gate="G$1" x="66.04" y="38.1" rot="R270"/>
 <instance part="GND5" gate="1" x="66.04" y="27.94" smashed="yes"/>
 <instance part="L1" gate="G$1" x="93.98" y="45.72" rot="R90"/>
@@ -7847,11 +7847,6 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 </net>
 <net name="GNDA" class="0">
 <segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<pinref part="GND2" gate="1" pin="GNDA"/>
-<wire x1="35.56" y1="73.66" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GNDA"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
@@ -7898,28 +7893,35 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="33.02" x2="144.78" y2="35.56" width="0.1524" layer="91" style="longdash"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GNDA"/>
+<wire x1="33.02" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="73.66" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$8" class="0">
 <segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="88.9" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="PAD1" gate="G$1" pin="P"/>
-<wire x1="45.72" y1="76.2" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="83.82" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="81.28" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="83.82" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
-<junction x="45.72" y="83.82"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="83.82" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="86.36" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="88.9" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
+<junction x="45.72" y="88.9"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="76.2" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="45.72" y1="73.66" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="45.72" y="73.66"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -7934,7 +7936,7 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <wire x1="73.66" y1="68.58" x2="73.66" y2="66.04" width="0.1524" layer="91"/>
 <junction x="66.04" y="68.58"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="71.12" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
