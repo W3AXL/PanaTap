@@ -3,4 +3,5 @@ Updated G4HUP panadapter tap
 
 Simple revision to the G4HUP high-impedance IF tap with specific components and updated filters.
 
-Untested as of 7/3/2017, but boards and components are on the way. The SPICE checks out, though.
+8/30/2017
+Schematic revised to fix capacitor placement error in original schematic. New boards sent out for fabrication and testing will be done when they get back.
