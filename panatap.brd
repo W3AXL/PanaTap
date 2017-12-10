@@ -88,13 +88,13 @@
 <text x="20.955" y="6.985" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">100</text>
 <text x="26.67" y="6.985" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">1k</text>
 <text x="26.67" y="17.78" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">39k</text>
-<text x="32.385" y="17.78" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">59pF</text>
-<text x="38.1" y="17.78" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">59pF</text>
-<text x="38.1" y="6.985" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">69nF</text>
-<text x="28.575" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">84nH</text>
-<text x="31.75" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">185nH</text>
-<text x="34.925" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">185nH</text>
-<text x="38.1" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">84nH</text>
+<text x="32.385" y="17.78" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">56pF</text>
+<text x="38.1" y="17.78" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">56pF</text>
+<text x="38.1" y="6.985" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">68pF</text>
+<text x="28.575" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">82nH</text>
+<text x="31.75" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">180nH</text>
+<text x="34.925" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">180nH</text>
+<text x="38.1" y="12.7" size="0.8128" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center">82nH</text>
 <text x="44.45" y="10.16" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">RF OUT</text>
 <text x="2.54" y="10.16" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">IF IN</text>
 <text x="12.065" y="6.35" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">RxB</text>
@@ -1529,13 +1529,13 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="1nF" x="20.955" y="12.7" smashed="yes"/>
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="0.1uF" x="20.955" y="16.51" smashed="yes" rot="R180"/>
 <element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="1nF" x="32.385" y="8.89" smashed="yes"/>
-<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="59pF" x="32.385" y="16.51" smashed="yes" rot="R180"/>
-<element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="69F" x="38.1" y="8.89" smashed="yes" rot="R180"/>
-<element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="59pF" x="38.1" y="16.51" smashed="yes" rot="R180"/>
-<element name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="84nH" x="30.48" y="12.7" smashed="yes" rot="R90"/>
-<element name="L2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="185nH" x="33.655" y="12.7" smashed="yes" rot="R270"/>
-<element name="L3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="185nH" x="36.83" y="12.7" smashed="yes" rot="R90"/>
-<element name="L4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="84nH" x="40.005" y="12.7" smashed="yes" rot="R270"/>
+<element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="56pF" x="32.385" y="16.51" smashed="yes" rot="R180"/>
+<element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="68pF" x="38.1" y="8.89" smashed="yes" rot="R180"/>
+<element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C1206" value="56pF" x="38.1" y="16.51" smashed="yes" rot="R180"/>
+<element name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="82nH" x="30.48" y="12.7" smashed="yes" rot="R90"/>
+<element name="L2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="180nH" x="33.655" y="12.7" smashed="yes" rot="R270"/>
+<element name="L3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="180nH" x="36.83" y="12.7" smashed="yes" rot="R90"/>
+<element name="L4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="L2012C" value="82nH" x="40.005" y="12.7" smashed="yes" rot="R270"/>
 <element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="SMD2,54-5,08" value="VCC" x="15.24" y="5.715" smashed="yes" rot="R270">
 <attribute name="VALUE" x="15.24" y="5.715" size="0.0254" layer="27" rot="R270"/>
 </element>

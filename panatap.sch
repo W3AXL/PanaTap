@@ -7728,17 +7728,17 @@ Source: JFET-J201_Siliconix_data.pdf</description>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" value="1kΩ"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" value="100"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="84nH"/>
-<part name="L2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="185nH"/>
-<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="59pF"/>
+<part name="L1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="82nH"/>
+<part name="L2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="180nH"/>
+<part name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="56pF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="69F"/>
+<part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="68pF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="L3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="185nH"/>
-<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="59pF"/>
-<part name="L4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="84nH"/>
+<part name="L3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="180nH"/>
+<part name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C1206" value="56pF"/>
+<part name="L4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="L-US" device="L2012C" value="82nH"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
