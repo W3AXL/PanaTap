@@ -5,7 +5,13 @@ Simple revision to the G4HUP high-impedance IF tap with specific components and 
 
 History
 
-12/10/2017 
+12/14/2017
+ - Revised parts.md to add quantity of parts needed.
+
+12/10/2017
+ - Up and running on a Yaesu FT-991A
+
+12/10/2017
  - Revised component values to values that you can actually obtain. Added digikey parts list.
 
 10/22/2017
